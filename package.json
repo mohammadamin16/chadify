@@ -1,0 +1,27 @@
+{
+  "name": "@chadify/chadify",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "@chadify/chadify": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc --outDir build",
+    "dev": "tsc --outDir build && node build/index.js",
+    "start": "node build/index.js"
+  },
+  "keywords": [
+    "cab",
+    "taxi",
+    "chad"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^4.1.0",
+    "@types/node": "^20.11.20",
+    "axios": "^1.6.7",
+    "typescript": "^5.3.3"
+  }
+}
